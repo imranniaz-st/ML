@@ -143,3 +143,32 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 models/gradient_boosting.pkl
+
+# Project-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+
+# Reports and generated documents
+reports/
+reports/*
+*.docx
+
+# Data outputs produced by scans
+data/results_*.json
+
+# Machine learning artifacts
+models/
+models/*
+*.pth
+*.pt
+
+# Misc
+.DS_Store
+*.log
+.pytest_cache/
+coverage/
+dist/
+build/
