@@ -1,6 +1,6 @@
 {
-  "trained_at": "2026-06-11T17:26:25.530596",
-  "samples": 2000,
+  "trained_at": "2026-06-11T18:16:22.870267",
+  "samples": 6270,
   "results": {
     "RandomForest": {
       "accuracy": 1.0,

@@ -1,0 +1,2512 @@
+{
+  "output_path": "reports/DT_Scan_Report_20260611_181623.docx",
+  "scan_date": "June 11, 2026 18:16",
+  "findings": [
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "locale",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.209,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "path",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.204,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.942,
+        "ensemble_score": 0.884,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "load",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.2053,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.942,
+        "ensemble_score": 0.884,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "include",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4015,
+      "url": "https://dial4leads.site/index.php",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.85,
+        "ensemble_score": 0.95,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "include",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.6856,
+      "url": "https://dial4leads.site/admin/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.85,
+        "ensemble_score": 0.95,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "doc",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.5747,
+      "url": "https://dial4leads.site/admin/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "content",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.2052,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "report",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 3.5017,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "folder",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.2031,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "cmd",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4679,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "exec",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.433,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "file",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.2058,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.942,
+        "ensemble_score": 0.884,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "name",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4789,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "src",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.3985,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "page",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.328,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.896,
+        "ensemble_score": 0.792,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "url",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.5106,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "path",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4074,
+      "url": "https://dial4leads.site/index.php",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.85,
+        "ensemble_score": 0.95,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "media",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4309,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "func",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.2455,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "filename",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4005,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "data",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4271,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "log",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.4456,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.896,
+        "ensemble_score": 0.792,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "read",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.1941,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.817,
+        "ensemble_score": 0.884,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "report",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.3235,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.896,
+        "ensemble_score": 0.792,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "folder",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.3939,
+      "url": "https://dial4leads.site/index.php",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "cmd",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.2036,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "path",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.5764,
+      "url": "https://dial4leads.site/admin/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.85,
+        "ensemble_score": 0.95,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "exec",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.2014,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "folder",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.5843,
+      "url": "https://dial4leads.site/admin/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "file",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.5627,
+      "url": "https://dial4leads.site/admin/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.85,
+        "ensemble_score": 0.95,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "media",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.212,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "layout",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.418,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "data",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.1992,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "language",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.204,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "require",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 1.037,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.85,
+        "ensemble_score": 0.95,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "uri",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.2071,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "display",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.4526,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.896,
+        "ensemble_score": 0.792,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "style",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.2453,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "source",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.1963,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "img",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4157,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "dir",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4112,
+      "url": "https://dial4leads.site/index.php",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "dir",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.3923,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "filepath",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4141,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "document",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.41,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "view",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4017,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "require",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.2063,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.942,
+        "ensemble_score": 0.884,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "open",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.4457,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.85,
+        "ensemble_score": 0.95,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "conf",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.741,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": true,
+      "severity": "Medium",
+      "evidence": [
+        {
+          "indicator": "HTTP 200 + 8000 bytes",
+          "category": "response"
+        }
+      ],
+      "category": "potential_lfi",
+      "payload": "../../../etc/passwd",
+      "parameter": "resource",
+      "status_code": 200,
+      "response_size": 8000,
+      "response_time": 0.5576,
+      "url": "https://dial4leads.site/",
+      "method": "GET",
+      "payload_category": "classic",
+      "cvss": 5.3,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.835,
+        "ensemble_score": 0.92,
+        "majority_vote": 0.75,
+        "votes": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": false,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    },
+    {
+      "vulnerable": false,
+      "severity": "Low",
+      "evidence": [],
+      "category": "none",
+      "payload": "../../../etc/passwd",
+      "parameter": "name",
+      "status_code": 405,
+      "response_size": 1009,
+      "response_time": 0.207,
+      "url": "https://dial4leads.site/",
+      "method": "POST",
+      "payload_category": "classic",
+      "cvss": 0.0,
+      "ml_prediction": {
+        "is_vulnerable": true,
+        "confidence": 0.893,
+        "ensemble_score": 0.787,
+        "majority_vote": 1.0,
+        "votes": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "ml_flagged": true,
+      "target": "https://dial4leads.site/",
+      "fingerprint": {
+        "server": "Apache/2.4.52 (Ubuntu)",
+        "x_powered_by": "Unknown",
+        "content_type": "text/html; charset=UTF-8",
+        "status": 200,
+        "waf_detected": [],
+        "tech_stack": [
+          "Apache",
+          "Laravel"
+        ],
+        "security_headers": {
+          "Clickjacking Protection": true,
+          "MIME Sniffing Protection": true,
+          "HSTS": true,
+          "CSP": false,
+          "XSS Filter": false
+        }
+      }
+    }
+  ],
+  "stats": {
+    "endpoints_discovered": 3,
+    "requests_made": 4270,
+    "severity_medium": 2485,
+    "total_findings": 122,
+    "scan_duration_sec": 3005,
+    "severity_critical": 0,
+    "severity_high": 0,
+    "severity_low": 0
+  },
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 71,
+    "low": 51
+  }
+}
