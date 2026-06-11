@@ -201,7 +201,7 @@ class MLEngine:
         self.trained           = False
         self._lock             = threading.Lock()
         self.torch_available   = TORCH_AVAILABLE
-        self.device            = torch.device('cuda' if (self.torch_available and torch.cuda.is_available()) else 'cpu') if self.torch_available else None
+        self.device            = self.device = torch.device('cuda' if (self.torch_available and torch.cuda.is_available()) else 'cpu') if self.torch_available else None
         self.torch_model       = None
 
     
